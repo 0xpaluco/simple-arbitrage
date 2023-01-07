@@ -1,5 +1,5 @@
 {
-  "name": "@flashbots/simple-arbitrage",
+  "name": "tri-arb-bot",
   "version": "0.0.1",
   "description": "",
   "main": "build/index.js",
@@ -14,23 +14,23 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jasmine": "^3.6.2",
+    "@types/jasmine": "^4.3.1",
     "@types/lodash": "^4.14.165",
-    "@types/node": "^14.14.10",
-    "@typescript-eslint/eslint-plugin": "^4.9.1",
-    "@typescript-eslint/parser": "^4.9.1",
-    "eslint": "^7.15.0",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
     "ethers": "^5.0.23",
-    "jasmine": "^3.6.3",
+    "jasmine": "^4.5.0",
     "nyc": "^15.1.0"
   },
   "peerDependencies": {
     "ethers": "^5.0.23"
   },
   "dependencies": {
-    "@flashbots/ethers-provider-bundle": "^0.3.1",
+    "@flashbots/ethers-provider-bundle": "^0.6.1",
     "lodash": "^4.17.21",
-    "ts-node": "^9.1.0",
+    "ts-node": "^10.9.1",
     "typescript": "^4.1.2"
   }
 }
